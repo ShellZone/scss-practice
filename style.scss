@@ -1,0 +1,33 @@
+
+$primary-color: #272727;
+$hello-color: #ff652f;
+$text-color: #236;
+$background-theme-color2: #554644;
+$background-theme-color3: #876;
+
+
+$font-weights: (
+    "smole": 200,
+    "middle": 600,
+    "large": 900
+);
+
+
+
+body {
+    background: $hello-color;
+    color: $text-color;
+}
+
+.main {
+    width:80%;
+    margin: 0 auto;
+
+
+        p {
+            font-weight: map-get($font-weights, large);
+
+        
+    }
+}
+
